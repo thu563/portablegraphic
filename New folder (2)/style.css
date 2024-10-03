@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta-button {
+    background: #f44336;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.courses {
+    padding: 40px 20px;
+}
+
+.course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: calc(33% - 20px);
+}
+
+.course-card img {
+    width: 100%;
+}
+
+.testimonials {
+    background: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about, .contact {
+    padding: 40px 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
